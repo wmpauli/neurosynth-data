@@ -19,6 +19,11 @@ Additionally, unlike previous releases, the present feature set includes not onl
 
 **IMPORTANT NOTE**: Beginning with version 0.3, studies in both the features and database files are identified by PubMed ID (rather than the doi used previously). This means that if you've previously (i.e., pre-April 2014) generated a Dataset instance using an older database.txt file, you'll need to re-generate the Dataset before loading new features.
 
+Feature images
+--------------
+
+There are three files that you will need for cross-species mappings of brain areas or psychological functions.  Two of these contain what is referred to by the Neurosynth framework as **feature images**: 1. feature_images_human.npy, 2. feature_images_rat.npy. You will also need the file 'feature_names.txt'.  Because these files are too large for github, we put them on OSF (DOI 10.17605/OSF.IO/6D3B2). You can use the script **download_feature_images.sh** from this github repository to download these files from the OSF repository.  We recommend storing them here, next to the other datasets.
+
 Archive
 -------
 The archive folder contains all releases to date. Each tarred and gzipped archive contains a pair of database.txt and features.txt files. Currently archived data include:
