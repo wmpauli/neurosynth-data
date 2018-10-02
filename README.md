@@ -1,6 +1,6 @@
 neurosynth-data
 ===============
-This repository contains data files for use with the [Neurosynth](https://github.com/neurosynth/neurosynth) codebase.
+This repository contains data files for use with the [Neurosynth](https://github.com/neurosynth/neurosynth) codebase. Please take note of the section **Feature images** below, for ensuring that you also get the files that are too large for github.
 
 Repository structure
 --------------------
