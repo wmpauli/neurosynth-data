@@ -4,7 +4,7 @@ This repository contains data files for use with the [Neurosynth](https://github
 
 Repository structure
 --------------------
-The most recent version of the Neurosynth datafiles are always contained in the root folder. Key files include:
+The most recent version of the Neurosynth datafiles are always contained in the root folder. Simply extract the compressed archive (either zip or tar.gz format).  Key files include:
 
 * database.txt: a plaintext file containing activation data and key metadata for all studies in the Neurosynth database. Each row represents a single activation from a single study. Mandatory columns include PMID, x/y/z coordinates, and stereotactic space. The remaining columns contain useful but non-essential metadata (e.g., author names, journal title, etc.). These latter columns can be deleted if desired.
 * features.txt: a plaintext file containing feature information for studies in database.txt. Each row represents a single study. The first column contains the PMID of the study and is used to map data in features.txt to the data in database.txt. Each column contains the weights for a different feature. Titles for all features are provided in the first row. Additionally, in contrast to previous datasets, the feature weights are now normalized, and reflect [tf-idf](http://en.wikipedia.org/wiki/Tf%E2%80%93idf) values rather than proportions.
